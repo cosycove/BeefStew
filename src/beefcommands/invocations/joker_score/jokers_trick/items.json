@@ -1,0 +1,118 @@
+{
+  "minus_two_shield": {
+    "name": "Minus Two Shield",
+    "description": "A single use shield that prevents a -2. Is destroyed after use.",
+    "rarity": "1",
+    "type": "passive",
+    "scope": "single",
+    "stock": "5"
+      },
+
+  "uno_reverse": {
+    "name": "Uno Reverse",
+    "description": "Reflect a -2 back on the attacker. Is destroyed after use.",
+    "rarity": "2",
+    "type": "passive",
+    "scope": "single",
+    "stock": "5"
+      },
+
+  "points_swap": {
+    "name": "Points Swap",
+    "description": "Choose a person to swap points with.",
+    "rarity": "4",
+    "type": "active",
+    "scope": "single",
+    "stock": "3"
+      },
+
+  "nuke": {
+    "name": "Mutually Assured Joker's Trick",
+    "description": "Boom.",
+    "rarity": "9",
+    "type": "active",
+    "scope": "global",
+    "stock": "1"
+      },
+
+  "distribution": {
+    "name": "Point Redistribution",
+    "description": "Pools all points and redistributes them evenly among all players.",
+    "rarity": "7",
+    "type": "active",
+    "scope": "global",
+    "stock": "1"
+      },
+      
+  "bomb": {
+    "name": "Landmine",
+    "description": "Upon recieving a -2, everyone in the immediate area also gets -2.",
+    "rarity": "5",
+    "type": "passive",
+    "scope": "global",
+    "stock": "2"
+      },
+
+  "converter": {
+    "name": "Cosmic Bit Flip",
+    "description": "Converts the next -2 into a +2. Is destroyed after use.",
+    "rarity": "4",
+    "type": "passive",
+    "scope": "single",
+    "stock": "2"
+      },
+
+  "debt_cancel": {
+    "name": "Generosity",
+    "description": "Clears any debt from all players! Wow you're really generous!",
+    "rarity": "5",
+    "type": "active",
+    "scope": "global",
+    "stock": "1"
+      },
+
+  "double_points": {
+    "name": "Amplifier",
+    "description": "Your next +2 is doubled to +4 OR you next -2 to someone else is doubled to -4.",
+    "rarity": "4",
+    "type": "passive",
+    "scope": "single",
+    "stock": "3"
+      },
+
+  "top_three": {
+    "name": "Punch Up",
+    "description": "-2 the top 3 on the leaderboard.",
+    "rarity": "3",
+    "type": "active",
+    "scope": "global",
+    "stock": "5"
+      },
+
+  "shrapnel": {
+    "name": "Thorns",
+    "description": "Upon recieving a -2,  the two people above and below you on the leaderboard lose a point.",
+    "rarity": "3",
+    "type": "passive",
+    "scope": "global",
+    "stock": "4"
+      },
+
+  "knight": {
+    "name": "Move the Knight",
+    "description": "Move the knight to a player of your choice. That player gets their points stolen as long as they have the knight!",
+    "rarity": "5",
+    "type": "active",
+    "scope": "single",
+    "stock": "1"
+      },
+
+  "veto": {
+    "name": "Score Veto",
+    "description": "Within 15 seconds of the last score, you can use your veto to cancel it.",
+    "rarity": "7",
+    "type": "active",
+    "scope": "single",
+    "stock": "3"
+      }
+}

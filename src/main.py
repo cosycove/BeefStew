@@ -21,12 +21,6 @@ api_key=os.getenv("TRELLOAPIKEY"),api_secret=os.getenv("TRELLOAPISECRET"),token=
 
 bot_loop: asyncio.AbstractEventLoop | None = None
 
-# setup changed to a class so we could use the setup_hook which looks to be convention now? 
-# https://stackoverflow.com/questions/68582472/what-is-the-difference-between-having-a-main-bot-class-versus-no-class-on-discor
-# https://discordpy.readthedocs.io/en/latest/api.html?highlight=setup#discord.Client.setup_hook
-# also means we can more easily pass and keep control of the main async loop
-# might have to change this is the music player not sure how well itll play with it
-
 class BeefStew(commands.Bot):
     async def setup_hook(self):
         
